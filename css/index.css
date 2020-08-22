@@ -1,0 +1,191 @@
+body{
+	background-color: black;
+	margin: 0;
+}
+.navigation{
+	padding-left :40px;
+	padding-right: 30px;
+}
+.container-fluid{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.nav-item {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.first-background, .second-background{
+	position: relative;
+	height: 550px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.first-background{
+	background-image: url("../images/testiminial-bg.jpg");
+	
+}
+
+.background-text, .second-background-text {
+	color: #fff;
+	padding-top: 200px;
+	padding: auto;
+	text-align: center;
+}
+
+.background-big-text, .second-background-big-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.0rem;
+	font-weight: bold;
+	padding-bottom: 20px;
+	width: 40%;
+	margin: auto;
+}
+
+.background-small-text, .second-background-small-text{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1rem;
+}
+
+.second-background {
+	background-image: url("../images/banner.jpeg");
+}
+
+.second-background-text{
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.7);
+	height: 100%;
+}
+
+.second-background-big-text{
+	font-size: 1.5rem;
+}
+
+/*services section*/
+.middle-container{
+	position: relative;
+}
+
+.our-services{
+	background-color: grey;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.0rem;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.service-div{
+	height: 400px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	line-height: 2;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+
+.service-one{
+	padding-top: 30%;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.5);
+	padding-bottom: 10px;
+	height: 100%;
+}
+
+.service-div-one{
+	background-image: url("../images/design.jpg");
+}
+
+.service-div-two{
+	background-image: url("../images/web-design.jpg");
+}
+
+.service-div-three{
+	background-image: url("../images/computer.png");
+}
+
+.service-text{
+	font-weight: bold;
+}
+
+.service-paragraph{
+	font-size: 1rem;
+}
+
+/*testimonials*/
+#testimonials{
+	
+	background-color:grey;
+	text-align: center;
+	margin-top: 10px;
+}
+.item{
+	padding: 4% 18%;       /* top&bottom left&right*/
+}
+
+.carousel-item h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #fff;
+}
+
+.testimonial-image{
+	width: 25%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+/*footer*/
+
+/*footer-section*/
+#footer{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: grey;
+	margin-top: 10px;	
+}
+
+.social-icon{
+	margin: 10px 10px;
+}
+
+@media (max-width: 1000px) {
+	.background-big-text, .second-background-big-text {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.0rem;
+		font-weight: bold;
+		line-height: 2;
+		padding-bottom: 20px;
+		width: 40%;
+		margin: auto;
+	}
+	.background-small-text,.second-background-small-text{
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 0.9rem;
+		width: 40%;
+		margin: auto;
+	}
+}
